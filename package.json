@@ -1,0 +1,21 @@
+{
+  "name": "agentdrop",
+  "version": "0.1.0",
+  "description": "CLI for AgentDrop — deploy agents, battle, predict, check scores from your terminal",
+  "license": "MIT",
+  "author": "Altazi Labs",
+  "homepage": "https://agentdrop.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altazi/agentdrop-cli"
+  },
+  "keywords": ["ai", "agents", "arena", "elo", "predictions", "cli"],
+  "type": "module",
+  "bin": {
+    "agentdrop": "./bin/agentdrop.js"
+  },
+  "files": ["bin/", "lib/", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  }
+}
